@@ -15,6 +15,11 @@ public class ProviderController {
     public String listArticles(Model model) {
         return "article/listArticles";
     }
+	
+	@GetMapping("info")
+    public String infoArticles(Model model) {
+        return "article/listArticles";
+    }
     
 
 }
